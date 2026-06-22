@@ -1,6 +1,6 @@
-PWD c:\Users\User\Documents\Universidad\Estadias\reporteNunyo2
+PWD c:\Users\User\Documents\Universidad\Estadias\Reporte-NunyoBoy
 INPUT C:\Users\User\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\User\Documents\Universidad\Estadias\reporteNunyo2\reporte_estadias_template.tex
+INPUT c:\Users\User\Documents\Universidad\Estadias\Reporte-NunyoBoy\reporte_estadias_template.tex
 OUTPUT reporte_estadias_template.log
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls

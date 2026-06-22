@@ -57,6 +57,7 @@
       \strng{authornamehash}{d1a0bc19456451949a47be50374bec33}
       \strng{authorfullhash}{d1a0bc19456451949a47be50374bec33}
       \strng{authorfullhashraw}{d1a0bc19456451949a47be50374bec33}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -109,6 +110,95 @@
       \field{title}{Integración de Acceso Tamaulipas (FusionAuth) en Aplicaciones Laravel}
       \field{year}{2026}
     \endentry
+    \entry{Parzibyte:termux}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=84a638589486980ac669a78516b895fc}{%
+           family={Parzibyte},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{84a638589486980ac669a78516b895fc}
+      \strng{fullhash}{84a638589486980ac669a78516b895fc}
+      \strng{fullhashraw}{84a638589486980ac669a78516b895fc}
+      \strng{bibnamehash}{84a638589486980ac669a78516b895fc}
+      \strng{authorbibnamehash}{84a638589486980ac669a78516b895fc}
+      \strng{authornamehash}{84a638589486980ac669a78516b895fc}
+      \strng{authorfullhash}{84a638589486980ac669a78516b895fc}
+      \strng{authorfullhashraw}{84a638589486980ac669a78516b895fc}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://parzibyte.me/blog/posts/configurar-termux-android-linux/}}
+      \field{title}{Configurar Termux en Android (Linux en nuestro bolsillo)}
+      \field{year}{2018}
+    \endentry
+    \entry{Postgres:juaramir}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0421f0903364bb33cbc8ab436783582d}{%
+           family={juaramir},
+           familyi={j\bibinitperiod}}}%
+      }
+      \strng{namehash}{0421f0903364bb33cbc8ab436783582d}
+      \strng{fullhash}{0421f0903364bb33cbc8ab436783582d}
+      \strng{fullhashraw}{0421f0903364bb33cbc8ab436783582d}
+      \strng{bibnamehash}{0421f0903364bb33cbc8ab436783582d}
+      \strng{authorbibnamehash}{0421f0903364bb33cbc8ab436783582d}
+      \strng{authornamehash}{0421f0903364bb33cbc8ab436783582d}
+      \strng{authorfullhash}{0421f0903364bb33cbc8ab436783582d}
+      \strng{authorfullhashraw}{0421f0903364bb33cbc8ab436783582d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.juaramir.com/android/postgresql-en-androidb}}
+      \field{title}{PostgreSQL en Android}
+      \field{year}{2026}
+    \endentry
+    \entry{NEON:pgvector}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=caf162e9233294cadf62d2a71a14ca09}{%
+           family={NEON},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{caf162e9233294cadf62d2a71a14ca09}
+      \strng{fullhash}{caf162e9233294cadf62d2a71a14ca09}
+      \strng{fullhashraw}{caf162e9233294cadf62d2a71a14ca09}
+      \strng{bibnamehash}{caf162e9233294cadf62d2a71a14ca09}
+      \strng{authorbibnamehash}{caf162e9233294cadf62d2a71a14ca09}
+      \strng{authornamehash}{caf162e9233294cadf62d2a71a14ca09}
+      \strng{authorfullhash}{caf162e9233294cadf62d2a71a14ca09}
+      \strng{authorfullhashraw}{caf162e9233294cadf62d2a71a14ca09}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://neon.com/docs/extensions/pgvector}}
+      \field{title}{The pgvector extension}
+      \field{year}{2025}
+    \endentry
+    \entry{AIIDT:DisenoodeSolucionesInformáticas}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d1a0bc19456451949a47be50374bec33}{%
+           family={AIIDT},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1a0bc19456451949a47be50374bec33}
+      \strng{fullhash}{d1a0bc19456451949a47be50374bec33}
+      \strng{fullhashraw}{d1a0bc19456451949a47be50374bec33}
+      \strng{bibnamehash}{d1a0bc19456451949a47be50374bec33}
+      \strng{authorbibnamehash}{d1a0bc19456451949a47be50374bec33}
+      \strng{authornamehash}{d1a0bc19456451949a47be50374bec33}
+      \strng{authorfullhash}{d1a0bc19456451949a47be50374bec33}
+      \strng{authorfullhashraw}{d1a0bc19456451949a47be50374bec33}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://aiidt.gob.mx/servicios/soluciones-informaticas/}}
+      \field{title}{Diseño de Soluciones Informáticas}
+      \field{year}{2026}
+    \endentry
     \entry{AIIDT:accesoTamaulipas}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=5e9bccf3da8a232e36d517108b28cf48}{%
@@ -123,12 +213,57 @@
       \strng{authornamehash}{5e9bccf3da8a232e36d517108b28cf48}
       \strng{authorfullhash}{5e9bccf3da8a232e36d517108b28cf48}
       \strng{authorfullhashraw}{5e9bccf3da8a232e36d517108b28cf48}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://acceso.tamaulipas.gob.mx}}
       \field{title}{Servicio de FusionAuth que utiliza la Agencia}
+      \field{year}{2026}
+    \endentry
+    \entry{AIIDT:autenticacion}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6f882f3abaae6f9868c1e19473c41d38}{%
+           family={AIIDT:autenticacion},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f882f3abaae6f9868c1e19473c41d38}
+      \strng{fullhash}{6f882f3abaae6f9868c1e19473c41d38}
+      \strng{fullhashraw}{6f882f3abaae6f9868c1e19473c41d38}
+      \strng{bibnamehash}{6f882f3abaae6f9868c1e19473c41d38}
+      \strng{authorbibnamehash}{6f882f3abaae6f9868c1e19473c41d38}
+      \strng{authornamehash}{6f882f3abaae6f9868c1e19473c41d38}
+      \strng{authorfullhash}{6f882f3abaae6f9868c1e19473c41d38}
+      \strng{authorfullhashraw}{6f882f3abaae6f9868c1e19473c41d38}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://documentacion.tamaulipas.gob.mx/books/servicio-de-catalogos/page/autenticacion}}
+      \field{title}{Autenticación}
+      \field{year}{2026}
+    \endentry
+    \entry{FusionAuth:Docs/Laravel}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d1a0bc19456451949a47be50374bec33}{%
+           family={AIIDT},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1a0bc19456451949a47be50374bec33}
+      \strng{fullhash}{d1a0bc19456451949a47be50374bec33}
+      \strng{fullhashraw}{d1a0bc19456451949a47be50374bec33}
+      \strng{bibnamehash}{d1a0bc19456451949a47be50374bec33}
+      \strng{authorbibnamehash}{d1a0bc19456451949a47be50374bec33}
+      \strng{authornamehash}{d1a0bc19456451949a47be50374bec33}
+      \strng{authorfullhash}{d1a0bc19456451949a47be50374bec33}
+      \strng{authorfullhashraw}{d1a0bc19456451949a47be50374bec33}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fusionauth.io/docs/get-started/quickstarts/web/quickstart-php-laravel-web}}
+      \field{title}{Laravel}
       \field{year}{2026}
     \endentry
   \enddatalist

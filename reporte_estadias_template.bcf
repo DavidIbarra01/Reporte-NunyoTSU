@@ -2377,7 +2377,13 @@
     <bcf:citekey order="2" intorder="1">AIIDT:Ubicacion</bcf:citekey>
     <bcf:citekey order="3" intorder="1">medium:inicio</bcf:citekey>
     <bcf:citekey order="4" intorder="1">AIIDT:Documentacion</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">AIIDT:accesoTamaulipas</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">Parzibyte:termux</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">Postgres:juaramir</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">NEON:pgvector</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">AIIDT:DisenoodeSolucionesInformáticas</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">AIIDT:accesoTamaulipas</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">AIIDT:autenticacion</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">FusionAuth:Docs/Laravel</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

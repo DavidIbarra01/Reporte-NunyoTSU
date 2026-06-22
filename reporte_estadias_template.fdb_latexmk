@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber reporte_estadias_template"] 1782097854.50398 "reporte_estadias_template.bcf" "reporte_estadias_template.bbl" "reporte_estadias_template" 1782097864.42455 0
-  "Referencias.bib" 1782016216 1911 c4acebe713b2855035eb2f7afbaa9961 ""
-  "reporte_estadias_template.bcf" 1782097864 108153 6e9fb4c0bcfa55b1cb29cf6ecfaa1a22 "pdflatex"
+["biber reporte_estadias_template"] 1782104974.54056 "reporte_estadias_template.bcf" "reporte_estadias_template.bbl" "reporte_estadias_template" 1782104984.45529 0
+  "Referencias.bib" 1782104951 3082 35ef659e3a6c5188053c6e6829fc6e52 ""
+  "reporte_estadias_template.bcf" 1782104984 108611 ac1f20a322142da62895da92b21c4837 "pdflatex"
   (generated)
   "reporte_estadias_template.bbl"
   "reporte_estadias_template.blg"
   (rewritten before read)
-["pdflatex"] 1782097861.84823 "c:/Users/User/Documents/Universidad/Estadias/reporteNunyo2/reporte_estadias_template.tex" "reporte_estadias_template.pdf" "reporte_estadias_template" 1782097864.42541 0
+["pdflatex"] 1782104981.75446 "c:/Users/User/Documents/Universidad/Estadias/Reporte-NunyoBoy/reporte_estadias_template.tex" "reporte_estadias_template.pdf" "reporte_estadias_template" 1782104984.45611 0
   "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1782022147 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1782022157 31952 1127804728ff527ed1b28c598e07896d ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1782022156 40136 1096e98afa7d6757a7950b2ded8ea044 ""
@@ -134,7 +134,7 @@
   "LogoUPV_2023.png" 1782016216 135292 80af2bf2f94e61e542c06ed161ce1345 ""
   "Membrete2023.pdf" 1782016216 259207 95421e691ffb3724a5bf35893a152f98 ""
   "UTYP.png" 1782016216 37831 6341e5aeae893dd331cd87983b1be4b3 ""
-  "c:/Users/User/Documents/Universidad/Estadias/reporteNunyo2/reporte_estadias_template.tex" 1782097851 42891 1bdced7ed4705b5e755e76013ecebc87 ""
+  "c:/Users/User/Documents/Universidad/Estadias/Reporte-NunyoBoy/reporte_estadias_template.tex" 1782104971 43069 24138d136c7f72a0ed7ddb4626098ccf ""
   "documentosDigitalizados/CartaAceptacion.pdf" 1782016216 1340359 9cc7da8209dc4f358b24a26908bbc21b ""
   "documentosDigitalizados/CartaPresentacion.pdf" 1782016216 1497071 f1478b824106bbdb4007b37312727143 ""
   "documentosDigitalizados/SeguroFacultativo.pdf" 1782016216 133588 1bb40be2ad03781e883eec1ff6c517d1 ""
@@ -157,12 +157,12 @@
   "figs/Tablas-DB.jpg" 1782016216 468018 f7ffc3bf99a9df4819ebdfeef403a9ee ""
   "figs/diagramaDeFlujo1.png" 1782016216 2067211 6303b3b5fc6409356fe360d591511032 ""
   "figs/wireframes.png" 1782016216 1781628 1cc465e2e745341dd20f344c5d6ae221 ""
-  "reporte_estadias_template.aux" 1782097864 11239 a89ad6afe7551dba3fe00fc3001b6a60 "pdflatex"
-  "reporte_estadias_template.bbl" 1782097859 6402 9d893158c92babe203440589cabde4fe "biber reporte_estadias_template"
-  "reporte_estadias_template.out" 1782097864 5961 8ccab646394f75a02a79909beb223bc3 "pdflatex"
-  "reporte_estadias_template.run.xml" 1782097864 2453 51665ba88db748d7a732df827049cf40 "pdflatex"
-  "reporte_estadias_template.tex" 1782097851 42891 1bdced7ed4705b5e755e76013ecebc87 ""
-  "reporte_estadias_template.toc" 1782097864 2629 1ad6bdcf022a877c14b5e0c5eb9fcd42 "pdflatex"
+  "reporte_estadias_template.aux" 1782104984 12265 d9bc6f5e2e34ff2f1af586b326008988 "pdflatex"
+  "reporte_estadias_template.bbl" 1782104976 12863 17031dacbb629a7d5287c91ce0aea88e "biber reporte_estadias_template"
+  "reporte_estadias_template.out" 1782104984 5961 8ccab646394f75a02a79909beb223bc3 "pdflatex"
+  "reporte_estadias_template.run.xml" 1782104984 2453 51665ba88db748d7a732df827049cf40 "pdflatex"
+  "reporte_estadias_template.tex" 1782104971 43069 24138d136c7f72a0ed7ddb4626098ccf ""
+  "reporte_estadias_template.toc" 1782104984 2629 1ad6bdcf022a877c14b5e0c5eb9fcd42 "pdflatex"
   (generated)
   "reporte_estadias_template.aux"
   "reporte_estadias_template.bcf"
