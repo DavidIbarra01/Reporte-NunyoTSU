@@ -1,0 +1,29 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{Resumen}{\es@scroman {iii}}{Doc-Start}%
+\contentsline {section}{Abstract}{\es@scroman {iv}}{Doc-Start}%
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\contentsline {section}{\numberline {2}Descripción de la Unidad Económica}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Giro}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Descripción General}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Departamento de trabajo}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Misión}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Visión}{4}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Infraestructura}{4}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}A nivel físico o de Hardware}{4}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}A nivel de Software}{4}{subsubsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.7}Ubicación}{4}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Objetivos Operativos}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Objetivo General}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Objetivos Específicos}{6}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Metodología}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Análisis de requerimientos y especificación del sistema}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Diseño de la arquitectura y modelado de datos}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Construcción de la lógica de negocio y servicios web (APIs) en el Backend con Laravel 13}{21}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Desarrollo de interfaces gráficas de usuario basadas en plantillas institucionales}{25}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Integración y configuración de algoritmos de identificación biométrica para reconocimiento facial}{27}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Ejecución de pruebas de rendimiento, seguridad y consistencia en entornos Docker}{28}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Elaboración de documentación técnica, diccionarios de datos y manuales de usuario}{29}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Resultados}{30}{section.5}%
+\contentsline {section}{\numberline {6}Conclusiones}{31}{section.6}%
+\contentsline {section}{Bibliografía}{32}{section.6}%
+\contentsline {section}{Anexos}{33}{section.6}%

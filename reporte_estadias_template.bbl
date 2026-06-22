@@ -1,0 +1,137 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{departamentoDeDigitalizacionyAutomatizacionDeTramites:agencia}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e930f3db1a81f2d1d73710365eac9405}{%
+           family={De\bibnamedelima Digitalizacion\bibnamedelimb y\bibnamedelimb Automatizacion\bibnamedelimb De\bibnamedelima Tramites},
+           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim y\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={departamento},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{e930f3db1a81f2d1d73710365eac9405}
+      \strng{fullhash}{e930f3db1a81f2d1d73710365eac9405}
+      \strng{fullhashraw}{e930f3db1a81f2d1d73710365eac9405}
+      \strng{bibnamehash}{e930f3db1a81f2d1d73710365eac9405}
+      \strng{authorbibnamehash}{e930f3db1a81f2d1d73710365eac9405}
+      \strng{authornamehash}{e930f3db1a81f2d1d73710365eac9405}
+      \strng{authorfullhash}{e930f3db1a81f2d1d73710365eac9405}
+      \strng{authorfullhashraw}{e930f3db1a81f2d1d73710365eac9405}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.tamaulipas.gob.mx/simplificacionydigitalizacion/}}
+      \field{title}{Que es el departamento de digitalizacion y simplificacion de tramites}
+      \field{year}{2026}
+    \endentry
+    \entry{AIIDT:Ubicacion}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d1a0bc19456451949a47be50374bec33}{%
+           family={AIIDT},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1a0bc19456451949a47be50374bec33}
+      \strng{fullhash}{d1a0bc19456451949a47be50374bec33}
+      \strng{fullhashraw}{d1a0bc19456451949a47be50374bec33}
+      \strng{bibnamehash}{d1a0bc19456451949a47be50374bec33}
+      \strng{authorbibnamehash}{d1a0bc19456451949a47be50374bec33}
+      \strng{authornamehash}{d1a0bc19456451949a47be50374bec33}
+      \strng{authorfullhash}{d1a0bc19456451949a47be50374bec33}
+      \strng{authorfullhashraw}{d1a0bc19456451949a47be50374bec33}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://aiidt.gob.mx/}}
+      \field{title}{Ubicacion}
+      \field{year}{2026}
+    \endentry
+    \entry{medium:inicio}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=075a3e36a0a52dcbc568c05788e8a713}{%
+           family={medium},
+           familyi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{075a3e36a0a52dcbc568c05788e8a713}
+      \strng{fullhash}{075a3e36a0a52dcbc568c05788e8a713}
+      \strng{fullhashraw}{075a3e36a0a52dcbc568c05788e8a713}
+      \strng{bibnamehash}{075a3e36a0a52dcbc568c05788e8a713}
+      \strng{authorbibnamehash}{075a3e36a0a52dcbc568c05788e8a713}
+      \strng{authornamehash}{075a3e36a0a52dcbc568c05788e8a713}
+      \strng{authorfullhash}{075a3e36a0a52dcbc568c05788e8a713}
+      \strng{authorfullhashraw}{075a3e36a0a52dcbc568c05788e8a713}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://muwangaxyz.medium.com/the-laravel-modular-architecture-implementation-in-brief-51951a9e9e98}}
+      \field{title}{The Laravel Modular Architecture Implementation in Brief}
+      \field{year}{2025}
+    \endentry
+    \entry{AIIDT:Documentacion}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c20d615a7ae4f336c268251bf252943}{%
+           family={AIIDT:Documentacion},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c20d615a7ae4f336c268251bf252943}
+      \strng{fullhash}{9c20d615a7ae4f336c268251bf252943}
+      \strng{fullhashraw}{9c20d615a7ae4f336c268251bf252943}
+      \strng{bibnamehash}{9c20d615a7ae4f336c268251bf252943}
+      \strng{authorbibnamehash}{9c20d615a7ae4f336c268251bf252943}
+      \strng{authornamehash}{9c20d615a7ae4f336c268251bf252943}
+      \strng{authorfullhash}{9c20d615a7ae4f336c268251bf252943}
+      \strng{authorfullhashraw}{9c20d615a7ae4f336c268251bf252943}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://documentacion.tamaulipas.gob.mx/books/integracion-de-acceso-tamaulipas-fusionauth-en-aplicaciones-laravel}}
+      \field{title}{Integración de Acceso Tamaulipas (FusionAuth) en Aplicaciones Laravel}
+      \field{year}{2026}
+    \endentry
+    \entry{AIIDT:accesoTamaulipas}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5e9bccf3da8a232e36d517108b28cf48}{%
+           family={AIIDT:accesoTamaulipas},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e9bccf3da8a232e36d517108b28cf48}
+      \strng{fullhash}{5e9bccf3da8a232e36d517108b28cf48}
+      \strng{fullhashraw}{5e9bccf3da8a232e36d517108b28cf48}
+      \strng{bibnamehash}{5e9bccf3da8a232e36d517108b28cf48}
+      \strng{authorbibnamehash}{5e9bccf3da8a232e36d517108b28cf48}
+      \strng{authornamehash}{5e9bccf3da8a232e36d517108b28cf48}
+      \strng{authorfullhash}{5e9bccf3da8a232e36d517108b28cf48}
+      \strng{authorfullhashraw}{5e9bccf3da8a232e36d517108b28cf48}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://acceso.tamaulipas.gob.mx}}
+      \field{title}{Servicio de FusionAuth que utiliza la Agencia}
+      \field{year}{2026}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
