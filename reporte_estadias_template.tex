@@ -599,6 +599,106 @@ En la figura \ref{fig:Paleta-colores2}, se muestran los códigos HTML que usan p
     \label{fig:Paleta-colores2}
 \end{figure}
 
+Ahora bien, basandome en las plantillas y en la paleta de colores que me proporciono la Agencia, empece a desarrollar ahora si que el Frontend de la plataforma... utilizando tecnologías como blade y Tailwinds CSS. Empezemos por la figura \ref{fig:loginFrontend}, que funciona como la puerta de entrada al sistema AURA. Aquí es donde el usuario se debe loguear obligatoriamente para poder avanzar al dashboard principal. No utiliza contraseñas locales; todo el proceso de identidad y seguridad se delega a FusionAuth. Al colocar mis credenciales institucionales, el sistema reconoce automáticamente mi identidad y, lo más importante, mi rol, redirigiéndome a la vista que me corresponde.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{figs/loginFrontend.png}
+    \caption{Login oficial del proyecto por parte de la agencia.}
+    \label{fig:loginFrontend}
+\end{figure}
+
+Ahora pasemos al Dashboard Principal.
+
+Es el centro de control del día a día. Aquí es donde se visualizan los datos operativos en tiempo real a través de cuatro tarjetas rápidas (Visitantes Hoy, Visitas Activas, Llamadas Registradas y Salas Ocupadas). Si llega alguien a la recepción, la recepcionista no tiene que buscar en menús ocultos; justo al centro tiene la sección de Acciones Rápidas con botones grandes para registrar un nuevo visitante, escanear el rostro de un recurrente o apuntar una llamada.
+Además, en la parte inferior hay una tabla dinámica que le recuerda exactamente quién sigue dentro del edificio y cuánto tiempo lleva ahí, permitiendo darles salida con un solo clic. La figura \ref{fig:dashboardFrontend}, muestra la interfaz del dashboard.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{figs/dashboardFrontend.png}
+    \caption{Dashboard de la plataforma del proyecto.}
+    \label{fig:dashboardFrontend}
+\end{figure}
+
+El siguiente catalogo es el Módulo de Visitantes.
+
+Este es el flujo crítico para eliminar las bitácoras de papel. En la columna izquierda se capturan los datos obligatorios (nombre, identificación y a qué funcionario busca). Lo interesante ocurre en la columna derecha: aquí se activa la cámara web para tomarle una fotografía en vivo. Al marcar la casilla de Embedding Facial, el sistema activa un algoritmo inteligente que convierte esa foto en un código matemático único. Así, al presionar "Registrar Entrada", la persona queda guardada para siempre en la base de datos. La figura \ref{fig:moduloVisitantes}, muestra la UI correspondiente.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{figs/moduloVisitantes.png}
+    \caption{Catalogo para el registro de visitantes dentro de la plataforma.}
+    \label{fig:moduloVisitantes}
+\end{figure}
+
+Pasemos al Módulo del Reconocimiento Facial.
+
+ En lugar de volver a pedirle todos los datos a un ciudadano que va seguido, la recepcionista activa esta pantalla, la cual muestra la cámara en grande con una guía para centrar el rostro. En un par de segundos, el sistema busca ese rostro en la base de datos. Si hay coincidencia, aparece mágicamente un panel lateral con su nombre y foto de referencia.
+Este módulo tiene una función vital de protección. Si el visitante fue bloqueado previamente por la dirección, saltará una alerta roja brillante con el motivo del bloqueo, permitiendo a la recepcionista tomar medidas de seguridad antes de permitir el ingreso. Si todo está en orden, un botón inicia la visita en un segundo. La figura \ref{fig:reconocimientoBiometrico}, muestra la interfaz para el reconocimiento facial del visitante.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{figs/reconocimientoBiometrico.png}
+    \caption{Catalogo para el registro biometrico del visitante.}
+    \label{fig:reconocimientoBiometrico}
+\end{figure}
+
+
+Ahora toca hablar sobre el Módulo de Llamadas.
+
+Este catalogo sirve para llevar la bitácora telefónica digital de la Agencia. En la parte de arriba se capturan rápido los datos (quién llama, de qué número y a qué funcionario o área se le transfiere). Al guardarla, se alimenta automáticamente la tabla de abajo, permitiendo tener un registro histórico transparente de qué recepcionista atendió cada llamada y cuáles fueron los asuntos más consultados del día. La figura \ref{fig:moduloLlamadas}, muestra la UI del catalogo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{figs/moduloLlamadas.png}
+    \caption{Catalogo para el registro biometrico del visitante.}
+    \label{fig:moduloLlamadas}
+\end{figure}
+
+Tambien se desarrollo el Frontend para el Módulo de Salas.
+
+Administra los espacios de juntas sin que haya pleitos por los horarios. Es un calendario visual interactivo donde cada sala tiene su propio color. La recepcionista puede ver los bloques de horas ocupadas y, si da clic en un hueco vacío, se abre un formulario para agendar una nueva reunión. Lo mejor es que la base de datos tiene un candado inteligente: si intentas empalmar una junta con otra en la misma sala y hora, el sistema bloquea la acción y te avisa que el espacio ya está reservado. La figura \ref{fig:moduloSalas}, Muestra la interfaz correspondiente.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{figs/moduloSalas.png}
+    \caption{Modulos de salas de la plataforma.}
+    \label{fig:moduloSalas}
+\end{figure}
+
+Pasemos al modulo de Reportes Operativos e Históricos.
+
+El auditor selecciona qué quiere investigar (Visitas, Llamadas, Salas o Eventos) a través de tarjetas visuales. Al elegir una, el panel de filtros cambia dinámicamente para pedirle las fechas exactas o los nombres que desea filtrar.
+Para no descargar archivos a ciegas, el sistema genera una tabla interactiva en la pantalla con una muestra real de los datos encontrados en la base de datos (fecha de entrada, motivo, gafete, etc.). Si la información es la correcta, el usuario utiliza los botones de exportación para descargar el reporte en PDF Institucional listo para firmar o en Excel para hacer cruces de datos avanzados. La figura \ref{fig:moduloReportes}, muestra el frontend del catalogo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{figs/moduloReportes.png}
+    \caption{Modulos de reportes de la plataforma.}
+    \label{fig:moduloReportes}
+\end{figure}
+
+Y por ultimo pasemos al Panel de Administración.
+
+Aquí es donde se supervisa y configura todo el sistema a nivel macro. Se compone de tres áreas clave:
+
+Dashboard de Métricas Avanzadas: Aquí se visualizan gráficas complejas cuya función es la toma de decisiones. Por ejemplo: la gráfica de Visitantes por mes ayuda a ver las temporadas de mayor afluencia; la de Uso de salas ayuda a saber si los espacios se están aprovechando; y la de Funcionarios más visitados revela qué áreas tienen mayor carga de atención ciudadana.
+
+Gestión de Catálogos: Sirve para alimentar el sistema. Si entra un funcionario nuevo, si se crea un área nueva o si se compra una pantalla para una sala, aquí es donde el administrador da de alta esos datos para que aparezcan en los formularios de la recepción.
+
+Configuración del Sistema y Auditoría: Permite ver la Bitácora de Eventos. Esta es una herramienta forense que registra absolutamente todo (quién inició sesión, a qué hora, qué registros se borraron o modificaron y desde qué dirección IP). Es crucial para auditorías de seguridad.
+
+La figura \ref{fig:panelAdministracion}, muestra la interfaz correspondiente.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{figs/panelAdministracion.png}
+    \caption{Panel de administracion para los administradores de la plataforma.}
+    \label{fig:panelAdministracion}
+\end{figure}
+
+
 
 \clearpage
 \subsection{Integración y configuración de algoritmos de identificación biométrica para reconocimiento facial}
