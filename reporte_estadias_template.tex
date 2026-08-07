@@ -702,12 +702,12 @@ La figura \ref{fig:panelAdministracion}, muestra la interfaz correspondiente.
 
 \clearpage
 \subsection{Integración y configuración de algoritmos de identificación biométrica para reconocimiento facial}
-
+La plataforma al estar utilizando la funcionalidad del reconocimiento facial, decidí implementar una librería llamada faceapi, que permite extraer las fotografías tomadas de los visitantes para así poder recolectar los datos de las fotos y guardarlas en la base de datos.
 
 
 \clearpage
 \subsection{Ejecución de pruebas de rendimiento, seguridad y consistencia en entornos Docker}
-
+Para la elaboración de las pruebas, se utilizo un archivo llamado dockercompose.yml para la orquestación de los distintos componentes de la plataforma. Este archivo fue desarrollado por la propia agencia y ya venia incluido en el starter kit. La gestion de los roles se realizaron con la ayuda de una libreria de laravel llamada Spatie \cite{Spatie:documentacion}.
 
 
 \clearpage
@@ -726,19 +726,81 @@ Al haber terminado de desarrollar el documento tecnico, comence con la redaccion
 \section{Resultados}
 Ya una vez abordado toda la metodología, es hora de comenzar a redactar la cereza del pastel... estamos hablando de los resultados de mi proyecto. Para que se pueda comprender del todo el funcionamiento del proyectp, tratare de explicar paso a paso el como funciona cada vista, mientras voy indexando algunas figuras para las representaciones visuales de las UI.
 
-Primero empezemos por el login. El usuario es llevado a una vista en donde se le solicitara unas credenciales proporcionadas por la propia agencia. Esta vista se mantiene viva gracias a una plataforma que ellos desarrollaron llamada "AccesoTamaulipas" \cite{AIIDT:accesoTamaulipas}. Esta plataforma utiliza el servicio de FusionAuth para asi poder validar las credenciales y una vez verificadas, reidericcionar al usuario a la pagina de inicio del proyecto. En la figura \ref{fig:loginPlataforma}
+Primero empezemos por el login. El usuario es llevado a una vista en donde se le solicitara unas credenciales proporcionadas por la propia agencia. Esta vista se mantiene viva gracias a una plataforma que ellos desarrollaron llamada "AccesoTamaulipas" \cite{AIIDT:accesoTamaulipas}. Esta plataforma utiliza el servicio de FusionAuth para asi poder validar las credenciales y una vez verificadas, reidericcionar al usuario a la pagina de inicio del proyecto. En la figura \ref{fig:loginPlataforma} se muestra la vista correspondiente.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{figs/loginAURA.jpeg}
+    \includegraphics[width=0.5\linewidth]{figs/loginAURA.jpeg}
     \caption{Login de la plataforma.}
     \label{fig:loginPlataforma}
 \end{figure}
 
+Una vez que el usuario se haya logueado en la plataforma, este sera reidereccionado a la vista del dashboard, en donde el usuario podra visualizar en tiempo real todo lo que vaya pasando dentro de la agencia. En la figura \ref{fig:finalDashboard}, se puede visualizar la pagina del dashboard.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{figs/FinalDahsboard.png}
+    \caption{Dashboard del proyecto.}
+    \label{fig:finalDashboard}
+\end{figure}
+
+Pasemos al catalogo de visitantes. Los usuarios serán capaces de registrar a los visitantes por medio del reconocimiento facial. Los usuarios deben de utilizar una cámara física para poder capturar el rostro de los visitantes. Una vez capturados sus rostros y almacenados en la base de datos, se procedera a registrar la visita del visitante. En la figura \ref{fig:finalVisitantes1}, se puede visualizar la vista descrita.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{figs/finalVisitantes1.png}
+    \caption{Registro de un visitante desde cero.}
+    \label{fig:finalVisitantes1}
+\end{figure}
+
+Por su puesto, si el visitante suele visitar mucho la agencia, en vez de volver a solicitarle los datos, se usara la camara directamente en vez de rellenar sus datos en los campos de texto. En la figura \ref{fig:finalVisitantes2}, se puede visualizar esta segunda vista.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{figs/finalVisitantes2.png}
+    \caption{Identificar a visitante recurrente.}
+    \label{fig:finalVisitantes2}
+\end{figure}
+
+Ahora pasemos al catalogo de llamadas. Aqui los usuarios de la agencia podran registrar todas las llamadas que van recibiendo los recepcionistas. En la figura \ref{fig:finalLlamadas}, se muestra a detalle el catalogo de llamadas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{figs/finalLlamadas.png}
+    \caption{Registro de llamdas.}
+    \label{fig:finalLlamadas}
+\end{figure}
+
+Ahora pasemos al catalogo de salas, aqui los usuarios podran reservar salas de juntas para los visitantes de la agencia. Cada sala tiene un color que los representan, asi como tambien el equipamiento que llevan, como monitores, cuantas sillas hay, etc. En la figura \ref{fig:finalLlamadas}, se muestra tanto el calendario de las reservaciones, como los campos que deben de rellenar para reservar una sala.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{figs/finalSalas.png}
+    \caption{El catalogo de salas de reservaciones.}
+    \label{fig:finalSalas}
+\end{figure}
+
+Ahora pasemos al catalogo de reportes. Aquí los usuarios tanto recepcionistas, como administradores, tendrán la oportunidad de generar reportes acerca de todo lo que ha estado pasando dentro de la agencia... como por ejemplo, cuantas salas se han reservado hoy ,cantidad de visitas activas el día de hoy, visitantes que han llegado a la agencia, etc. En la figura \ref{fig:Finalreportes}, se muestra a detalle la siguiente vista.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{figs/Finalreportes.png}
+    \caption{El catalogo de salas de reservaciones.}
+    \label{fig:Finalreportes}
+\end{figure}
+
+Y por ultimo, pasemos a la vista de Administración. Esta vista solo podrá ser visualizada por los administradores y ellos tendrán el derecho de gestionar la existencia de algunas salas, así como también supervisar el estado actual de los funcionarios. En la figura \ref{fig:finalAdmin}, se puede visualizar esta vista.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{figs/finalAdmin.png}
+    \caption{El catalogo de salas de reservaciones.}
+    \label{fig:finalAdmin}
+\end{figure}
 
 \clearpage
 \section{Conclusiones}
-
+Las estadías TSU tuvieron un impacto en mi desarrollo social, permitiéndome integrarme a varios círculos sociales de manera amigable, así como también se moldeo mas la habilidad del trabajo en equipo. Durante el periodo, se desempeño la habilidad de realizar levantamiento de requerimientos, elaborar documentos de análisis, así como la implementación de un sistema rígido, la integridad de servicios externos de seguridad y la realización de pruebas en tiempo real.
 
 
 %\clearpage
@@ -779,7 +841,7 @@ Primero empezemos por el login. El usuario es llevado a una vista en donde se le
 
 %\clearpage
 %\thispagestyle{fancy}
-%\includepdf[pages={1}]{documentosDigitalizados/CartaLiberacion.pdf}
+\includepdf[pages={1}]{documentosDigitalizados/CartaLiberacion.pdf}
 
 %\chapter*{Rúbrica para la Evaluación del Reporte de Estadía}
 \clearpage
