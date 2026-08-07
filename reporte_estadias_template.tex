@@ -724,8 +724,16 @@ Al haber terminado de desarrollar el documento tecnico, comence con la redaccion
 
 \clearpage
 \section{Resultados}
+Ya una vez abordado toda la metodología, es hora de comenzar a redactar la cereza del pastel... estamos hablando de los resultados de mi proyecto. Para que se pueda comprender del todo el funcionamiento del proyectp, tratare de explicar paso a paso el como funciona cada vista, mientras voy indexando algunas figuras para las representaciones visuales de las UI.
 
+Primero empezemos por el login. El usuario es llevado a una vista en donde se le solicitara unas credenciales proporcionadas por la propia agencia. Esta vista se mantiene viva gracias a una plataforma que ellos desarrollaron llamada "AccesoTamaulipas" \cite{AIIDT:accesoTamaulipas}. Esta plataforma utiliza el servicio de FusionAuth para asi poder validar las credenciales y una vez verificadas, reidericcionar al usuario a la pagina de inicio del proyecto. En la figura \ref{fig:loginPlataforma}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{figs/loginAURA.jpeg}
+    \caption{Login de la plataforma.}
+    \label{fig:loginPlataforma}
+\end{figure}
 
 
 \clearpage

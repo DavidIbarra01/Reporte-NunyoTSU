@@ -1,17 +1,18 @@
 # Fdb version 4
-["biber reporte_estadias_template"] 1782269432.57454 "reporte_estadias_template.bcf" "reporte_estadias_template.bbl" "reporte_estadias_template" 1782453957.69147 0
-  "Referencias.bib" 1782104951 3082 35ef659e3a6c5188053c6e6829fc6e52 ""
-  "reporte_estadias_template.bcf" 1782453957 108611 ac1f20a322142da62895da92b21c4837 "pdflatex"
+["biber reporte_estadias_template"] 1786070229.08003 "reporte_estadias_template.bcf" "reporte_estadias_template.bbl" "reporte_estadias_template" 1786070237.23043 0
+  "Referencias.bib" 1786069916 3281 fef2f6bb5ee374721f0c6018f6764d85 ""
+  "reporte_estadias_template.bcf" 1786070236 108689 c1002d607d59143352f76d904e0f1c31 "pdflatex"
   (generated)
   "reporte_estadias_template.bbl"
   "reporte_estadias_template.blg"
   (rewritten before read)
-["pdflatex"] 1782453954.69263 "c:/Users/User/Documents/Universidad/Estadias/Reporte-NunyoBoy/reporte_estadias_template.tex" "reporte_estadias_template.pdf" "reporte_estadias_template" 1782453957.69229 0
+["pdflatex"] 1786070234.06563 "c:/Users/User/Documents/Universidad/Estadias/Reporte-NunyoBoy/reporte_estadias_template.tex" "reporte_estadias_template.pdf" "reporte_estadias_template" 1786070237.23195 0
   "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1782022147 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1782022157 31952 1127804728ff527ed1b28c598e07896d ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1782022156 40136 1096e98afa7d6757a7950b2ded8ea044 ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1728.pk" 1782022160 49100 b0c4a2b6c971a1ced7aead5fc0ba826b ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/eccc1200.pk" 1782022153 30576 8839906e713baf3f887c42cc50436e71 ""
+  "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0600.pk" 1786069968 14880 3e8d714a65c1fc679ff12fd77d286e3c ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0800.pk" 1782022155 19080 ea423c3598d29adb372f0e33ff39a275 ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk" 1782022151 23808 a8d31c5c74e2d151414f610b8144f04a ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk" 1782022158 28440 11b572848fd5da6164edd893bcd8cea0 ""
@@ -24,6 +25,7 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1440.tfm" 993061960 3196 0b37fa3083e15c57cfa8c4ff52f2807a ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1728.tfm" 993061962 3204 d35cb76836b6cb4ed404dd64a550530d ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/eccc1200.tfm" 993061984 2796 601f0e3324021d7edb90718e24047a6a ""
+  "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm0600.tfm" 993062116 3160 116e21835795bb29209ae8bb4682382f ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm0800.tfm" 993062118 3152 11ecf5aad6aacf00ff18f394ab23a8b5 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1200.tfm" 993062126 3152 4850ff0163852b7fab34bd55e1197f28 ""
@@ -134,7 +136,7 @@
   "LogoUPV_2023.png" 1782016216 135292 80af2bf2f94e61e542c06ed161ce1345 ""
   "Membrete2023.pdf" 1782016216 259207 95421e691ffb3724a5bf35893a152f98 ""
   "UTYP.png" 1782016216 37831 6341e5aeae893dd331cd87983b1be4b3 ""
-  "c:/Users/User/Documents/Universidad/Estadias/Reporte-NunyoBoy/reporte_estadias_template.tex" 1782453953 53158 abc5d372a4dc57ee9cf4575ce5542682 ""
+  "c:/Users/User/Documents/Universidad/Estadias/Reporte-NunyoBoy/reporte_estadias_template.tex" 1786070233 57584 90e42cd8c49e99adf51aed0ec996f8f2 ""
   "documentosDigitalizados/CartaAceptacion.pdf" 1782016216 1340359 9cc7da8209dc4f358b24a26908bbc21b ""
   "documentosDigitalizados/CartaPresentacion.pdf" 1782016216 1497071 f1478b824106bbdb4007b37312727143 ""
   "documentosDigitalizados/SeguroFacultativo.pdf" 1782016216 133588 1bb40be2ad03781e883eec1ff6c517d1 ""
@@ -157,6 +159,7 @@
   "figs/Tablas-DB.jpg" 1782016216 468018 f7ffc3bf99a9df4819ebdfeef403a9ee ""
   "figs/dashboardFrontend.png" 1782185969 81514 0b59720019f038fb9e7eaa9b956f2f61 ""
   "figs/diagramaDeFlujo1.png" 1782016216 2067211 6303b3b5fc6409356fe360d591511032 ""
+  "figs/loginAURA.jpeg" 1786067811 72631 e5853823672a1285b591c7c0a0495648 ""
   "figs/loginFrontend.png" 1782185571 507657 dfa4caba0725d82c9fdf98c3057bbf81 ""
   "figs/moduloLlamadas.png" 1782186909 56780 5723b853b8918231379d11783240c464 ""
   "figs/moduloReportes.png" 1782187360 64439 23eee3c1c4c29ba5ddbd87f94c55b15f ""
@@ -165,12 +168,12 @@
   "figs/panelAdministracion.png" 1782187979 85609 3cf81d575983e48ed7f5b40c398f2211 ""
   "figs/reconocimientoBiometrico.png" 1782186713 68233 83d3874ab4e1be9c4f0cd27122cd4427 ""
   "figs/wireframes.png" 1782016216 1781628 1cc465e2e745341dd20f344c5d6ae221 ""
-  "reporte_estadias_template.aux" 1782453957 14341 8bbdb9cb73b7cdc69c4e30c0d7d07e28 "pdflatex"
-  "reporte_estadias_template.bbl" 1782269434 12863 17031dacbb629a7d5287c91ce0aea88e "biber reporte_estadias_template"
-  "reporte_estadias_template.out" 1782453957 5961 8ccab646394f75a02a79909beb223bc3 "pdflatex"
-  "reporte_estadias_template.run.xml" 1782453957 2453 51665ba88db748d7a732df827049cf40 "pdflatex"
-  "reporte_estadias_template.tex" 1782453953 53158 abc5d372a4dc57ee9cf4575ce5542682 ""
-  "reporte_estadias_template.toc" 1782453957 2629 6d0b3c24a4544dbbda3846c5bcf598b1 "pdflatex"
+  "reporte_estadias_template.aux" 1786070236 14641 0424942e262ad9ab6370848ab070b389 "pdflatex"
+  "reporte_estadias_template.bbl" 1786070230 12863 17031dacbb629a7d5287c91ce0aea88e "biber reporte_estadias_template"
+  "reporte_estadias_template.out" 1786070236 5961 8ccab646394f75a02a79909beb223bc3 "pdflatex"
+  "reporte_estadias_template.run.xml" 1786070236 2453 51665ba88db748d7a732df827049cf40 "pdflatex"
+  "reporte_estadias_template.tex" 1786070233 57584 90e42cd8c49e99adf51aed0ec996f8f2 ""
+  "reporte_estadias_template.toc" 1786070236 2629 78c55043b49bd5b797b1bb1cdf8d5cdb "pdflatex"
   (generated)
   "reporte_estadias_template.aux"
   "reporte_estadias_template.bcf"
