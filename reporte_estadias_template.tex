@@ -73,11 +73,11 @@
 \newcommand{\MesEvaluacionPesentacion}{Agosto}
 \newcommand{\AnhoEvaluacionPesentacion}{2026}
 \newcommand{\fechaPortada}               {\MesEvaluacionPesentacion~de~\AnhoEvaluacionPesentacion}
-\newcommand{\HoraEvaluacionPesentacion}{10:00 hrs}
+\newcommand{\HoraEvaluacionPesentacion}{10:45 hrs}
 
 \newcommand{\modalidadEvaluacionPesentacion}{Presencial} % Otras opciones: Virtual
 \newcommand{\tipoAulaOficinaEnlacePesentacion}{la Oficina} % Otras opciones: la oficia/el aula/enlace
-\newcommand{\AulaEvaluacionOEnlaceMeetPesentacion}{I-XXX69} %otras opciones: si es un elance de meet, rodearlo \url{}
+\newcommand{\AulaEvaluacionOEnlaceMeetPesentacion}{I100-C02} %otras opciones: si es un elance de meet, rodearlo \url{}
 
 %\newcommand{\modalidadEvaluacionPesentacion}{Virtual} % Otras opciones: Virtual
 %\newcommand{\tipoAulaOficinaEnlacePesentacion}{el enlace} % Otras opciones: la oficia/el aula/el enlace
@@ -357,7 +357,10 @@ La agencia cuenta con equipos de cómputo, repetidores de red en el techo para a
 
 
 \subsubsection{A nivel de Software}
-Las herramientas que utilizan para desarrollar softwares y plataformas son: Laravel 13, Python con FastAPI, PostgreSQL para las bases de datos, git con Github y Docker para el manejo de contenedores.
+Las herramientas que utilizan para desarrollar softwares y plataformas son: Laravel 13,
+FastAPI, PostgreSQL para las bases de datos, git con Github, Spatie para el manejo de roles y
+privilegios, FusionAuth para validar las credenciales del usuario antes de reidirigirlo al proyecto,
+nodejs, composer y Docker para el manejo de contenedores.
 
 
 \subsection{Ubicación}
@@ -599,8 +602,7 @@ En la figura \ref{fig:Paleta-colores2}, se muestran los códigos HTML que usan p
     \label{fig:Paleta-colores2}
 \end{figure}
 
-Ahora bien, basandome en las plantillas y en la paleta de colores que me proporciono la Agencia, empece a desarrollar ahora si que el Frontend de la plataforma... utilizando tecnologías como blade y Tailwinds CSS. Empezemos por la figura \ref{fig:loginFrontend}, que funciona como la puerta de entrada al sistema AURA. Aquí es donde el usuario se debe loguear obligatoriamente para poder avanzar al dashboard principal. No utiliza contraseñas locales; todo el proceso de identidad y seguridad se delega a FusionAuth. Al colocar mis credenciales institucionales, el sistema reconoce automáticamente mi identidad y, lo más importante, mi rol, redirigiéndome a la vista que me corresponde.
-
+Ahora bien, basandome en las plantillas y en la paleta de colores que me proporciono la Agencia, empece a desarrollar ahora si que el Frontend de la plataforma... utilizando tecnologías como blade y Tailwinds CSS. Empezemos por la figura \ref{fig:loginFrontend}, que funciona como la puerta de entrada al sistema AURA. Aquí es donde el usuario se debe loguear obligatoriamente para poder avanzar al dashboard principal. No utiliza contraseñas locales; todo el proceso de identidad y seguridad se delega a FusionAuth. Al colocar mis credenciales institucionales, el sistema reconoce automáticamente mi identidad y, lo más importante, mi rol.
 
 \begin{figure}[H]
     \centering
@@ -652,18 +654,18 @@ Este catalogo sirve para llevar la bitácora telefónica digital de la Agencia. 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{figs/moduloLlamadas.png}
-    \caption{Catalogo para el registro biometrico del visitante.}
+    \caption{Catalogo de llamadas del proyecto.}
     \label{fig:moduloLlamadas}
 \end{figure}
 
-Tambien se desarrollo el Frontend para el Módulo de Salas.
+También se desarrollo el Frontend para el Módulo de Salas.
 
 Administra los espacios de juntas sin que haya pleitos por los horarios. Es un calendario visual interactivo donde cada sala tiene su propio color. La recepcionista puede ver los bloques de horas ocupadas y, si da clic en un hueco vacío, se abre un formulario para agendar una nueva reunión. Lo mejor es que la base de datos tiene un candado inteligente: si intentas empalmar una junta con otra en la misma sala y hora, el sistema bloquea la acción y te avisa que el espacio ya está reservado. La figura \ref{fig:moduloSalas}, Muestra la interfaz correspondiente.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{figs/moduloSalas.png}
-    \caption{Modulos de salas de la plataforma.}
+    \caption{Módulos de salas de la plataforma.}
     \label{fig:moduloSalas}
 \end{figure}
 
@@ -675,7 +677,7 @@ Para no descargar archivos a ciegas, el sistema genera una tabla interactiva en 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{figs/moduloReportes.png}
-    \caption{Modulos de reportes de la plataforma.}
+    \caption{Módulos de reportes de la plataforma.}
     \label{fig:moduloReportes}
 \end{figure}
 
@@ -694,7 +696,7 @@ La figura \ref{fig:panelAdministracion}, muestra la interfaz correspondiente.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{figs/panelAdministracion.png}
-    \caption{Panel de administracion para los administradores de la plataforma.}
+    \caption{Panel de administración para los administradores de la plataforma.}
     \label{fig:panelAdministracion}
 \end{figure}
 
@@ -702,31 +704,31 @@ La figura \ref{fig:panelAdministracion}, muestra la interfaz correspondiente.
 
 \clearpage
 \subsection{Integración y configuración de algoritmos de identificación biométrica para reconocimiento facial}
-La plataforma al estar utilizando la funcionalidad del reconocimiento facial, decidí implementar una librería llamada faceapi, que permite extraer las fotografías tomadas de los visitantes para así poder recolectar los datos de las fotos y guardarlas en la base de datos.
+La plataforma al estar utilizando la funcionalidad del reconocimiento facial, decidí implementar una librería llamada Face-API, que permite extraer las fotografías tomadas de los visitantes para así poder recolectar los datos de las fotos y guardarlas en la base de datos. Al estar trabajando con postgreSQL, tuve la la oportunidad de instalar una extensión llamada pgvector... una extensión exclusiva para el postgres que permite guardar embeddings faciales en las tablas, es decir, en vez de guardar imágenes pesadas, podemos guardar las fotos en un formato de números y vectores para así poder agilizar la búsqueda similar de fotografías.
 
 
 \clearpage
 \subsection{Ejecución de pruebas de rendimiento, seguridad y consistencia en entornos Docker}
-Para la elaboración de las pruebas, se utilizo un archivo llamado dockercompose.yml para la orquestación de los distintos componentes de la plataforma. Este archivo fue desarrollado por la propia agencia y ya venia incluido en el starter kit. La gestion de los roles se realizaron con la ayuda de una libreria de laravel llamada Spatie \cite{Spatie:documentacion}.
+Debido a que en el celular es imposible manejar comandos de docker por las limitantes que posee el kernel de Android, el proyecto se tuvo que migrar a otro dispositivo, específicamente a una laptop que me proporciono la agencia... para que de esta manera, pudiera manejar los contenedores docker sin ninguna limitante. Para la elaboración de las pruebas, se utilizo un archivo llamado docker-compose.yml para la orquestación de los distintos componentes de la plataforma. Este archivo fue desarrollado por la propia agencia y ya venia incluido en el starter kit. La gestión de los roles se realizaron con la ayuda de una librería de laravel llamada Spatie \cite{Spatie:documentacion}. Spatie es una librería que se puede integrar en proyectos de Laravel y que nos permite gestionar los privilegios y autenticación de los usuarios mediante los roles.
 
 
 \clearpage
 \subsection{Elaboración de documentación técnica, diccionarios de datos y manuales de usuario}
-En esta etapa, comence a desarrollar el documento de analisis del proyecto, un archivo que contendria todo el contenido relacionado al proyecto, desde su alcance, las necesidades que busca resolver, su marco legal, requerimentos, el publico al que esta dirigido el proyecto, hasta los requerimientos legales que debe respetar la agencia para no comprometer los datos confidenciales de los trabajdores de la agencia a la hora de estar utilizando la plataforma. Dentro de este archivo he redactado los requisitos funcionales y no funcionales. En cada Requisito funcional, he redactado una historia de usuario, junto con sus criterios de aceptacion con la finalidad de reducir ambiguedades y explicar a detalle el comportamiento de los usuarios al estar ejecutando esos requisitos funcionales.
+En esta etapa, comencé a desarrollar el documento de análisis del proyecto, un archivo que contendría todo el contenido relacionado al proyecto, desde su alcance, las necesidades que busca resolver, su marco legal, requerimientos, el publico al que esta dirigido el proyecto, hasta los requerimientos legales que debe respetar la agencia para no comprometer los datos confidenciales de los trabajadores de la agencia a la hora de estar utilizando la plataforma. Dentro de este archivo he redactado los requisitos funcionales y no funcionales. En cada Requisito funcional, he redactado una historia de usuario, junto con sus criterios de aceptación con la finalidad de reducir ambigüedades y explicar a detalle el comportamiento de los usuarios al estar ejecutando esos requisitos funcionales.
 
-Algo que quiero destacar, es de que conoci a muchos empleados que me enseñaron como trabajan y a lo que se dedican. Entre ellos, conoci a una persona que se dedica al area de analisis de proyectos... tuve la fortuna de que ese compañero fuera amigo de mi madre, asi que me estuvo enseñando muchas cosas, desde como redactar un buen documento de analisis con sus respectivos titulos, hasta el flujo de trabajo que siguen segun el area en el que se encuentren desempeñando.
+Algo que quiero destacar, es de que conocí a muchos empleados que me enseñaron como trabajan y a lo que se dedican. Entre ellos, conocí a una persona que se dedica al área de análisis de proyectos... tuve la fortuna de que ese compañero fuera amigo de mi madre, así que me estuvo enseñando muchas cosas, desde como redactar un buen documento de análisis con sus respectivos títulos, hasta el flujo de trabajo que siguen según el área en el que se encuentren desempeñando.
 
-Despues de terminar de redactar el documento de Analisis, inicie con el desarrollo del manual tecnico del proyecto... el documento lo que busca es explicar los componentes que utiliza la plataforma barra proyecto, asi como tambien su arquitectura, endpoints, stack tecnologico, modelo de datos, su infraestructura y despliegue, audiencia a la que esta dirigida la plataforma, etc. De esta manera, tanto los desarrolladores de la agencia, como los directivos, comprenderan como funciona por dentro el proyecto.
+Después de terminar de redactar el documento de Análisis, inicie con el desarrollo del manual técnico del proyecto... el documento lo que busca es explicar los componentes que utiliza la plataforma barra proyecto, así como también su arquitectura, endpoints, stack tecnológico, modelo de datos, su infraestructura y despliegue, audiencia a la que esta dirigida la plataforma, etc. De esta manera, tanto los desarrolladores de la agencia, como los directivos, comprenderán como funciona por dentro el proyecto.
 
-En del manual tecnico, especificamente dentro de una seccion llamada Modelos de datos, viene el diccionario de datos. En el diccionario de datos se explica la descripcion de cada tabla, asi como tambien los atributos que utilia, sus tipos de datos, relaciones, restricciones y al final una breve descripcion de cada campo... todo esta informacion esta encapsulada en tablas comparativas.
+En del manual técnico, específicamente dentro de una sección llamada Modelos de datos, viene el diccionario de datos. En el diccionario de datos se explica la descripción de cada tabla, así como también sus atributos, sus tipos de datos, relaciones, restricciones y al final una breve descripción de cada campo... todo esta información esta encapsulada en tablas comparativas.
 
-Al haber terminado de desarrollar el documento tecnico, comence con la redaccion del manual de usuario... un documento que les ayudaria a los recepcionistas y administradores de la agencia a como utilizar el proyecto una vez finalizado y desplegado.
+Al haber terminado de desarrollar el documento técnico, comencé con la redacción del manual de usuario... un documento que les ayudaría a los recepcionistas y administradores de la agencia a como utilizar el proyecto una vez finalizado y desplegado.
 
 \clearpage
 \section{Resultados}
-Ya una vez abordado toda la metodología, es hora de comenzar a redactar la cereza del pastel... estamos hablando de los resultados de mi proyecto. Para que se pueda comprender del todo el funcionamiento del proyectp, tratare de explicar paso a paso el como funciona cada vista, mientras voy indexando algunas figuras para las representaciones visuales de las UI.
+Ya una vez abordado toda la metodología, es hora de comenzar a redactar la cereza del pastel... estamos hablando de los resultados de mi proyecto. Para que se pueda comprender del todo el funcionamiento del proyecto, tratare de explicar paso a paso el como funciona cada vista, mientras voy indexando algunas figuras para las representaciones visuales de las UI.
 
-Primero empezemos por el login. El usuario es llevado a una vista en donde se le solicitara unas credenciales proporcionadas por la propia agencia. Esta vista se mantiene viva gracias a una plataforma que ellos desarrollaron llamada "AccesoTamaulipas" \cite{AIIDT:accesoTamaulipas}. Esta plataforma utiliza el servicio de FusionAuth para asi poder validar las credenciales y una vez verificadas, reidericcionar al usuario a la pagina de inicio del proyecto. En la figura \ref{fig:loginPlataforma} se muestra la vista correspondiente.
+Primero empecemos por el login. El usuario es llevado a una vista en donde se le solicitara unas credenciales proporcionadas por la propia agencia. Esta vista se mantiene viva gracias a una plataforma que ellos desarrollaron llamada "AccesoTamaulipas" \cite{AIIDT:accesoTamaulipas}. Esta plataforma utiliza el servicio de FusionAuth para así poder validar las credenciales y una vez verificadas, reidericcionar al usuario a la pagina de inicio del proyecto. En la figura \ref{fig:loginPlataforma} se muestra la vista correspondiente.
 
 \begin{figure}[H]
     \centering
@@ -735,7 +737,7 @@ Primero empezemos por el login. El usuario es llevado a una vista en donde se le
     \label{fig:loginPlataforma}
 \end{figure}
 
-Una vez que el usuario se haya logueado en la plataforma, este sera reidereccionado a la vista del dashboard, en donde el usuario podra visualizar en tiempo real todo lo que vaya pasando dentro de la agencia. En la figura \ref{fig:finalDashboard}, se puede visualizar la pagina del dashboard.
+Una vez que el usuario se haya logueado en la plataforma, este sera reidereccionado a la vista del dashboard, en donde el usuario podrá visualizar en tiempo real todo lo que vaya pasando dentro de la agencia. En la figura \ref{fig:finalDashboard}, se puede visualizar la pagina del dashboard.
 
 \begin{figure}[H]
     \centering
@@ -744,7 +746,7 @@ Una vez que el usuario se haya logueado en la plataforma, este sera reidereccion
     \label{fig:finalDashboard}
 \end{figure}
 
-Pasemos al catalogo de visitantes. Los usuarios serán capaces de registrar a los visitantes por medio del reconocimiento facial. Los usuarios deben de utilizar una cámara física para poder capturar el rostro de los visitantes. Una vez capturados sus rostros y almacenados en la base de datos, se procedera a registrar la visita del visitante. En la figura \ref{fig:finalVisitantes1}, se puede visualizar la vista descrita.
+Pasemos al catalogo de visitantes. Los usuarios serán capaces de registrar a los visitantes por medio del reconocimiento facial. Los usuarios deben de utilizar una cámara física para poder capturar el rostro de los visitantes. Una vez capturados sus rostros y almacenados en la base de datos, se procederá a registrar la visita del visitante. En la figura \ref{fig:finalVisitantes1}, se puede visualizar la vista descrita.
 
 \begin{figure}[H]
     \centering
@@ -753,7 +755,7 @@ Pasemos al catalogo de visitantes. Los usuarios serán capaces de registrar a lo
     \label{fig:finalVisitantes1}
 \end{figure}
 
-Por su puesto, si el visitante suele visitar mucho la agencia, en vez de volver a solicitarle los datos, se usara la camara directamente en vez de rellenar sus datos en los campos de texto. En la figura \ref{fig:finalVisitantes2}, se puede visualizar esta segunda vista.
+Por su puesto, si el visitante suele visitar mucho la agencia, en vez de volver a solicitarle los datos, se usara la cámara directamente en vez de rellenar sus datos en los campos de texto. En la figura \ref{fig:finalVisitantes2}, se puede visualizar esta segunda vista.
 
 \begin{figure}[H]
     \centering
@@ -762,16 +764,16 @@ Por su puesto, si el visitante suele visitar mucho la agencia, en vez de volver 
     \label{fig:finalVisitantes2}
 \end{figure}
 
-Ahora pasemos al catalogo de llamadas. Aqui los usuarios de la agencia podran registrar todas las llamadas que van recibiendo los recepcionistas. En la figura \ref{fig:finalLlamadas}, se muestra a detalle el catalogo de llamadas.
+Ahora pasemos al catalogo de llamadas. Aquí los usuarios de la agencia podrán registrar todas las llamadas que van recibiendo los recepcionistas. En la figura \ref{fig:finalLlamadas}, se muestra a detalle el catalogo de llamadas.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{figs/finalLlamadas.png}
-    \caption{Registro de llamdas.}
+    \caption{Registro de llamadas.}
     \label{fig:finalLlamadas}
 \end{figure}
 
-Ahora pasemos al catalogo de salas, aqui los usuarios podran reservar salas de juntas para los visitantes de la agencia. Cada sala tiene un color que los representan, asi como tambien el equipamiento que llevan, como monitores, cuantas sillas hay, etc. En la figura \ref{fig:finalLlamadas}, se muestra tanto el calendario de las reservaciones, como los campos que deben de rellenar para reservar una sala.
+Ahora pasemos al catalogo de salas, aquí los usuarios podrán reservar salas de juntas para los visitantes de la agencia. Cada sala tiene un color que los representan, así como también el equipamiento que llevan, como monitores, cuantas sillas hay, etc. En la figura \ref{fig:finalLlamadas}, se muestra tanto el calendario de las reservaciones, como los campos que deben de rellenar para reservar una sala.
 
 \begin{figure}[H]
     \centering
@@ -785,7 +787,7 @@ Ahora pasemos al catalogo de reportes. Aquí los usuarios tanto recepcionistas, 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{figs/Finalreportes.png}
-    \caption{El catalogo de salas de reservaciones.}
+    \caption{El catalogo de la generación de reportes del proyecto.}
     \label{fig:Finalreportes}
 \end{figure}
 
@@ -794,13 +796,25 @@ Y por ultimo, pasemos a la vista de Administración. Esta vista solo podrá ser 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{figs/finalAdmin.png}
-    \caption{El catalogo de salas de reservaciones.}
+    \caption{El panel final de administración del proyecto.}
     \label{fig:finalAdmin}
 \end{figure}
 
 \clearpage
 \section{Conclusiones}
-Las estadías TSU tuvieron un impacto en mi desarrollo social, permitiéndome integrarme a varios círculos sociales de manera amigable, así como también se moldeo mas la habilidad del trabajo en equipo. Durante el periodo, se desempeño la habilidad de realizar levantamiento de requerimientos, elaborar documentos de análisis, así como la implementación de un sistema rígido, la integridad de servicios externos de seguridad y la realización de pruebas en tiempo real.
+Las estadías TSU tuvieron un impacto en mi desarrollo social, permitiéndome integrarme
+a varios círculos sociales de manera amigable, así como también se moldeo mas la habilidad
+del trabajo en equipo. Durante el periodo, se desempeño la habilidad de realizar levantamiento
+de requerimientos, elaborar documentos de análisis, así como tambien la implementación de un sistema
+rígido, la integridad de servicios externos de seguridad y la realización de pruebas en tiempo
+real. Las estadías no solo me aportaron mas conocimiento o amistades, sino que se logro ver en
+acción el flujo real de trabajo de un equipo de desarrolladores... así mismo, se vieron tecnologías
+que no se habían visto antes de la universidad. Los proyectos de la Agencia de Innovación e
+Inteligencia Digital de Tamaulipas demostraron un gran desafió e impacto para nosotros como
+estudiantes, ya que solemos tener una percepción diferente del mundo laboral antes de ir al
+batallón. También se puso a prueba la resolución de problemas a nivel empresarial, puesto que
+como estudiante, se puso a marcha el manejo de esta habilidad con la ayuda de los empleados
+de la propia agencia.
 
 
 %\clearpage

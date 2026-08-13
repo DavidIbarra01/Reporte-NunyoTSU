@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber reporte_estadias_template"] 1786127223.29633 "reporte_estadias_template.bcf" "reporte_estadias_template.bbl" "reporte_estadias_template" 1786128652.17658 0
+["biber reporte_estadias_template"] 1786127223.29633 "reporte_estadias_template.bcf" "reporte_estadias_template.bbl" "reporte_estadias_template" 1786420626.60102 0
   "Referencias.bib" 1786127167.06883 3429 81b36c469acc5d5ede7aa83e783d5179 ""
-  "reporte_estadias_template.bcf" 1786128651.93172 107915 33fb9ae871634eaff5fcb032495aba58 "pdflatex"
+  "reporte_estadias_template.bcf" 1786420626.37691 107915 33fb9ae871634eaff5fcb032495aba58 "pdflatex"
   (generated)
   "reporte_estadias_template.bbl"
   "reporte_estadias_template.blg"
   (rewritten before read)
-["pdflatex"] 1786128648.17117 "/workspaces/Reporte-NunyoTSU/reporte_estadias_template.tex" "reporte_estadias_template.pdf" "reporte_estadias_template" 1786128652.17695 0
+["pdflatex"] 1786420623.01093 "/workspaces/Reporte-NunyoTSU/reporte_estadias_template.tex" "reporte_estadias_template.pdf" "reporte_estadias_template" 1786420626.60148 0
   "/etc/texmf/web2c/texmf.cnf" 1786124396.53202 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/codespace/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk" 1786125283.48896 31928 fb5993cf2f1772e8b6a440f34fb0c607 ""
   "/home/codespace/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk" 1786125282.87496 40112 24d5595a1fbb5f130441e809257c786b ""
@@ -140,7 +140,7 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1786124742.929 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1786124781 6822843 ccfb3bcb18013aaedd22d44fb32a1253 ""
-  "/workspaces/Reporte-NunyoTSU/reporte_estadias_template.tex" 1786128642.47872 61493 72bf1f139ec5a6a425850117530212b7 ""
+  "/workspaces/Reporte-NunyoTSU/reporte_estadias_template.tex" 1786420622.34991 63194 a53e9868a0738d4df6ea0b8eb8549feb ""
   "LogoUPV_2023.png" 1786122388.75917 135292 9dc028ee986352f8e0c86763d6b399fc ""
   "Membrete2023.pdf" 1786122388.76117 259207 12c98cc2947acf63d1a72d52ce31a405 ""
   "UTYP.png" 1786122388.76117 37831 4ef8c60a90da178fa76c40dc51540bdf ""
@@ -183,12 +183,12 @@
   "figs/panelAdministracion.png" 1786122388.81017 85609 e8a33b3ff0e5c9d0b5ecb90eb1d4232e ""
   "figs/reconocimientoBiometrico.png" 1786122388.81017 68233 8f933df0f6a9f7f05547c1a099756c24 ""
   "figs/wireframes.png" 1786122388.82117 1781628 4402e70fff4d7dc2990e4e0652d1204d ""
-  "reporte_estadias_template.aux" 1786128651.92472 16306 5cd9105c06ebbd68a05e13940e5bd2e6 "pdflatex"
+  "reporte_estadias_template.aux" 1786420626.37091 16332 4b81498f82807c501f04f606ef16ecc7 "pdflatex"
   "reporte_estadias_template.bbl" 1786127224.46382 12075 c4d28c91aea52f17e0369a50d7765d2f "biber reporte_estadias_template"
-  "reporte_estadias_template.out" 1786128651.92772 5961 8ccab646394f75a02a79909beb223bc3 "pdflatex"
-  "reporte_estadias_template.run.xml" 1786128651.93272 2453 51665ba88db748d7a732df827049cf40 "pdflatex"
-  "reporte_estadias_template.tex" 1786128642.47872 61493 72bf1f139ec5a6a425850117530212b7 ""
-  "reporte_estadias_template.toc" 1786128651.93272 2629 705e1213f2215676d7c39db4a21f6d27 "pdflatex"
+  "reporte_estadias_template.out" 1786420626.37391 5961 8ccab646394f75a02a79909beb223bc3 "pdflatex"
+  "reporte_estadias_template.run.xml" 1786420626.37791 2453 51665ba88db748d7a732df827049cf40 "pdflatex"
+  "reporte_estadias_template.tex" 1786420622.34991 63194 a53e9868a0738d4df6ea0b8eb8549feb ""
+  "reporte_estadias_template.toc" 1786420626.37791 2629 705e1213f2215676d7c39db4a21f6d27 "pdflatex"
   (generated)
   "reporte_estadias_template.aux"
   "reporte_estadias_template.bcf"
